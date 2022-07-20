@@ -1,4 +1,6 @@
 import React from 'react'
+
+
 import { 
     Anchor, 
     BtComment, 
@@ -11,10 +13,11 @@ import {
     CtIconsModify, 
     CtImage, 
     CtTxt, 
+    Imatge, 
     TxtDescription, 
-    TxtTitle, } from './CardBici.styled'
+    TxtTitle, } from './Product.styled'
 
-function CardBici({bici}) {
+function Product({product}) {
 
   return (
 
@@ -22,26 +25,20 @@ function CardBici({bici}) {
 
     <CtCard>
       <CtImage>
-          <Imatge/>
+          <Imatge src={product.img}></Imatge>
       </CtImage>
       <CtCardInfo>
-        
         <CtIcons>
-
           <BtFav><i className="fa-regular fa-thumbs-up fa-2x fa-lg"></i></BtFav>
-
           <BtComment>
-
           <Anchor><span>
           <i className="fa-regular fa-comment-dots fa-2x fa-lg"></i></span></Anchor></BtComment>
 
         </CtIcons>
         <CtIconsModify>
-         
          <BtEdit>
          <Anchor><span>
          <i className="fa-solid fa-pen-to-square"></i></span></Anchor></BtEdit>
-
           <BtDelete>
           <i className="fa-solid fa-trash-can"></i></BtDelete>
         </CtIconsModify>
@@ -56,4 +53,4 @@ function CardBici({bici}) {
   )
 }
 
-export default CardBici
+export default Product

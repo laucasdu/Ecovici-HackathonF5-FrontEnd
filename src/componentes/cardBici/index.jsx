@@ -1,0 +1,1 @@
+export { CardBici } from './CardBici'

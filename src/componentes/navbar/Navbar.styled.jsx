@@ -9,7 +9,7 @@ export const CtContainer = styled.div`
   @media screen and (max-width: 820px) {
   height: 250px;
   width: 100%;
-  background-color: #072104;
+  background-color: #7A8561;
   }
 
   @media screen and (max-width: 390px) {
@@ -21,13 +21,16 @@ export const CtContainer = styled.div`
 //Navbar
 export const CtNavbar = styled.div`
   display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   justify-content: space-between;
 
 
   @media screen and (max-width: 820px) {
   height: 250px;
   width: 100%;
-  background-color: #072104;
+  background-color: #93AA5F;
    
   }
 
@@ -40,6 +43,8 @@ export const CtNavbar = styled.div`
 export const CtLogo = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
   @media screen and (max-width: 820px) {
     margin-left: 25%;
@@ -50,9 +55,11 @@ export const CtLogo = styled.div`
   }
 `;
 
-export const TxtLogo = styled.button`
-  font-size: 20px;
-    margin: 5px;
+export const TxtLogo = styled.img`
+    font-size: 20px;
+    background-color: #93AA5F;
+    width: 30%;
+    margin-left: 20%;
     line-height: 30px;
     text-transform: uppercase ;
     width: max-content;
@@ -72,6 +79,23 @@ export const TxtLogo = styled.button`
 export const CtInfo = styled.div`
      display: flex;
     list-style: none;
+    margin-right: 4%;
+
+
+    @media screen and (max-width: 820px) {
+    flex-direction: column;
+        display: flex;
+        margin-right: 20px;
+        list-style:none;
+        background-color: burlywood;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+
+}
+
 
 `;
 
@@ -80,11 +104,9 @@ export const TxtHome = styled.button`
   height: 13%;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
   font-size: 17px;
   border-radius: 0.1vw;
-  background-color: #98B5A4;
-  color:#072104;  
+  background-color: #E8E3CE;
   cursor: pointer;
 
 
@@ -99,11 +121,17 @@ export const TxtHome = styled.button`
 `;
 
 export const BtBici = styled.button`
-  font-size: 20px;
-    margin: 5px;
-    line-height: 30px;
-    text-transform: uppercase ;
-    width: max-content;
+  border: none;
+  color: #E8E3CE;
+  margin-right: 5%;
+  font-weight: 600;
+  border-radius: 2%;
+  color: #93AA5F;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 
 
   @media screen and (max-width: 820px) {
@@ -121,11 +149,17 @@ export const BtBici = styled.button`
 
 
 export const BtEquipamiento = styled.button`
-   font-size: 20px;
-    margin: 5px;
-    line-height: 30px;
-    text-transform: uppercase ;
-    width: max-content;
+  border: none;
+  color: #E8E3CE;
+  font-weight: 600;
+  border-radius: 2%;
+  color: #93AA5F;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 5%;
+  font-size: 16px;
 
 
   @media screen and (max-width: 820px) {

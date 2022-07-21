@@ -5,7 +5,7 @@ export const CtProductList = styled.div`
     justify-content: center;
     grid-template-columns: 20% 20% 20% 20%;
     display: grid;
-    gap: 4em;  
+    gap: 4ch;
     background-color: #D5E0DC;
     
 /*     

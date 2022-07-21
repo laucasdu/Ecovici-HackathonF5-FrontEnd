@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Anchor = styled.a`
   text-decoration: none;
-  color: #345226;
+  height: 50%;
+
 
   &:hover {
     color: #98B5A4;
@@ -11,16 +12,14 @@ export const Anchor = styled.a`
 
 export const CtCard = styled.div`
   display: flex;
-  /* border-radius: 5%; */
-  /* position: relative; */
   flex-direction: column;
-  /* margin: 5%; */
   filter: drop-shadow(2px 1px 6px #7a8188 );
   position: relative;
   background-color: white;
   margin-top: 20%;
   transition: 0.4s;
   width: 100%;
+  height: 76%;
   
   &:hover {
     transform: scale(0.96, 0.96);
@@ -28,14 +27,12 @@ export const CtCard = styled.div`
   }
 
   @media screen and (max-width: 820px) {
-    /* margin: 25px; */
     width: 90%;
     
   }
 
   @media screen and (max-width: 390px) {
     width: 100%;
-    /* margin-left: 18%; */
 
   }
 
@@ -46,7 +43,7 @@ export const CtImage = styled.div`
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 65%;
+    height: 53%;
     overflow: hidden;
 
 `;
@@ -55,7 +52,7 @@ export const Imatge = styled.img`
   object-fit: cover;
   object-position: center;
   width: 100%;
-  height: 100%;
+  height: 90%;
 
   @media screen and (max-width: 820px) {
     
@@ -68,116 +65,60 @@ export const Imatge = styled.img`
 
 `;
 
-export const CtCardInfo = styled.div`
-  display: flex;
-  margin-top: 2%;  
-`;
+
 
 export const CtIcons = styled.div`
-  display: flex;
-  margin-top: 2%;
-  width: 60%;
-  justify-content: flex-start;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+    border-radius: 0px 0px 8px 8px;
 `;
 
 export const BtFav = styled.button`
-  background-color: transparent;
-  font-size: 22px;
-  margin-left: 6%;
-  border: none;
-  color: #345226;
-  margin-right: 2%;
-
-  cursor: pointer;
-  &:hover {
-    color: #98B5A4;
-  }
+    font-size: 90%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+    height: 50%;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+    border: none;
 
 
   @media screen and (max-width: 820px) {
-    font-size: 25px;
+    font-size: 29px;
   }
 
   @media screen and (max-width: 390px) {
-    font-size: 18px;
-
-  }
-   
-`
-export const BtComment = styled.button`
-  color: #345226;
-  font-size: 22px;
-  background-color: transparent;
-  border: none;
-  margin-right: 2%;
-  cursor: pointer;
-
-  &:hover {
-    color: #98B5A4;
-  }
-
-  @media screen and (max-width: 820px) {
-    font-size: 25px;
-
-    
-  }
-
-  @media screen and (max-width: 390px) {
-    font-size: 18px;
-
-  }
-    
-`
-export const CtIconsModify = styled.div`
-  display: flex;
-  width: 50%;
-  justify-content: flex-end;
-   
-`
-export const BtEdit = styled.button`
-  color: #345226;
-  font-size: 22px;
-  background-color: transparent;
-  border: none;
-  margin-right: 5%;
-  cursor: pointer;
-
-  &:hover {
-    color: #98B5A4;
-  }
-
-  @media screen and (max-width: 820px) {
-    font-size: 25px;
-  }
-
-  @media screen and (max-width: 390px) {
-    font-size: 18px;
+    font-size: 23px;
   }
 
 `;
 
 
-export const BtDelete = styled.button`
-  color: #345226;
-  background-color: transparent;
-  border: none;
-  font-size: 22px;
-  margin-right: 6%;
-  cursor: pointer;
-
-  &:hover {
-    color: #98B5A4;
-  }
+  export const BtEdit = styled.button`
+    padding-top: 2%;
+    color: #345226;
+    padding-bottom: 2.2%;
+    width: 50%;
+    height: 50%;
+    transition-duration: 0.4s;
+    border: none;
+    cursor: pointer;
 
   @media screen and (max-width: 820px) {
-    font-size: 25px;
+    font-size: 29px;
   }
 
   @media screen and (max-width: 390px) {
-    font-size: 18px;
+    font-size: 23px;
   }
- 
+
 `;
+
+
 
 export const CtTxt = styled.div`
   background-color: inherit;

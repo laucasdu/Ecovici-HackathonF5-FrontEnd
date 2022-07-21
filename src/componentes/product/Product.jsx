@@ -1,56 +1,58 @@
 import React from 'react'
-
-
+import { Link } from 'react-router-dom'
 import { 
     Anchor, 
-    BtComment, 
-    BtDelete, 
     BtEdit, 
     BtFav, 
     CtCard, 
-    CtCardInfo, 
     CtIcons, 
-    CtIconsModify, 
     CtImage, 
+    CtPunts, 
     CtTxt, 
+    CtUser, 
+    CtUserName, 
     Imatge, 
-    TxtDescription, 
-    TxtTitle, } from './Product.styled'
+    Punts, 
+    TxtTitle,
+    User,
+    UserName,
+    UserPhoto, } from './Product.styled'
 
 function Product({product}) {
 
   return (
 
-    <>
-
     <CtCard>
+    <CtUser>
+      <User>
+        <UserPhoto src={product.seller.userImg} alt={product.seller.userName}></UserPhoto>
+      </User>
+      <CtUserName>
+        <UserName>{product.seller.userName}</UserName> 
+      </CtUserName>
+      <CtPunts>
+        <Punts>...</Punts> 
+      </CtPunts>
+      </CtUser>
       <CtImage>
+      {/* <Link to = {`/products/${product.id}`}> */}
           <Imatge src={product.img}></Imatge>
+          {/* </Link> */}
       </CtImage>
-      <CtCardInfo>
+
         <CtIcons>
           <BtFav><i className="fa-regular fa-thumbs-up fa-2x fa-lg"></i></BtFav>
-          <BtComment>
-          <Anchor><span>
-          <i className="fa-regular fa-comment-dots fa-2x fa-lg"></i></span></Anchor></BtComment>
-
+          <BtEdit><i className="fa-solid fa-pen-to-square"></i></BtEdit>
         </CtIcons>
-        <CtIconsModify>
-         <BtEdit>
-         <Anchor><span>
-         <i className="fa-solid fa-pen-to-square"></i></span></Anchor></BtEdit>
-          <BtDelete>
-          <i className="fa-solid fa-trash-can"></i></BtDelete>
-        </CtIconsModify>
-        </CtCardInfo>
-        <CtTxt>
-          <TxtTitle></TxtTitle>
-          <TxtDescription></TxtDescription>
-        </CtTxt>
-    </CtCard>
 
-    </>
+        <CtTxt>
+          <TxtTitle>{product.price}</TxtTitle>
+          <TxtTitle>{product.name}</TxtTitle>
+        </CtTxt>
+
+    </CtCard>
   )
+
 }
 
 export default Product

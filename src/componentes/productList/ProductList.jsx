@@ -10,14 +10,12 @@ function ProductList() {
     getAllProducts();
   }, []);
 
-
   const getAllProducts = () => {
     productServices.getAllProducts().then((res) => {
       setProducts(res);
       // console.log(res)
       });
     };
-
 
 
   return (
@@ -29,7 +27,6 @@ function ProductList() {
               <Product 
               key={key} 
               product={product}
-
               />
       
         ))}

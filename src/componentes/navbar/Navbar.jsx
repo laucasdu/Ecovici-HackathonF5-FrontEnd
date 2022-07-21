@@ -1,5 +1,7 @@
 import React from 'react'
 import { 
+  BtBici,
+    BtEquipamiento,
     CtInfo, 
     CtLogo, 
     CtLogoCentral, 
@@ -20,15 +22,11 @@ function Navbar() {
         <TxtLogo>HOME</TxtLogo>
       </CtLogo>
 
-      <CtLogoCentral>
-
-      </CtLogoCentral>
-
     <CtInfo>
 
-          <TxtNew>BICIS</TxtNew>
-          <TxtNew>EQUIPAMIENTO</TxtNew>
-          <TxtRegistrate>REGISTRATE</TxtRegistrate>
+          <BtBici>BICIS</BtBici>
+          <BtEquipamiento>EQUIPAMIENTO</BtEquipamiento>
+
       </CtInfo>
       </CtNavbar>
 </>

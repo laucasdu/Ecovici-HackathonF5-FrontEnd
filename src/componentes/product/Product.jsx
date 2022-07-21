@@ -1,19 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { 
+  Button,
     CtCard, 
     CtIcons, 
     CtImage, 
-    CtPunts, 
     CtTxt, 
     CtUser, 
     CtUserName, 
     Imatge, 
-    Punts, 
     TxtTitle,
     User,
     UserName,
-    UserPhoto, } from './Product.styled'
+    CtButton,
+    UserPhoto,
+    TxtPrice,
+    BtFav, } from './Product.styled'
 
 function Product({product}) {
 
@@ -26,10 +28,9 @@ function Product({product}) {
       </User>
       <CtUserName>
         <UserName>{product.seller.userName}</UserName> 
+        <BtFav><i className="fa-solid fa-heart"></i></BtFav>
+
       </CtUserName>
-      <CtPunts>
-        <Punts>...</Punts> 
-      </CtPunts>
       </CtUser>
       <CtImage>
       <Link to = {`/products/${product.id}`}>
@@ -38,12 +39,14 @@ function Product({product}) {
       </CtImage>
 
         <CtIcons>
-          {/* <BtFav><i className="fa-regular fa-thumbs-up fa-2x fa-lg"></i></BtFav> */}
         </CtIcons>
 
         <CtTxt>
-          <TxtTitle>{product.price}</TxtTitle>
           <TxtTitle>{product.name}</TxtTitle>
+          <TxtPrice>Precio: {product.price}€</TxtPrice>
+          <CtButton>
+          <Button>COMPRAR</Button>
+          </CtButton>
         </CtTxt>
 
     </CtCard>

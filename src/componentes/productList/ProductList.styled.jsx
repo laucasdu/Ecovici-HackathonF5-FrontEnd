@@ -5,8 +5,9 @@ export const CtProductList = styled.div`
     justify-content: center;
     grid-template-columns: 20% 20% 20% 20%;
     display: grid;
+    background-color: #F7F5EB;
+
     gap: 4ch;
-    background-color: #D5E0DC;
     
 /*     
 @media only screen and (max-width:820px) {
@@ -27,7 +28,7 @@ export const CtProductList = styled.div`
    @media screen and (max-width: 1085px) {
     grid-template-columns: 30% 30% 30%;
     justify-items: center;
-    background-color: white;
+    background-color: #E8E3CE;
     /* height: 100vh; */
   }
 

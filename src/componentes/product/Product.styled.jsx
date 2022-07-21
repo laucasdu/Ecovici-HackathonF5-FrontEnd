@@ -13,13 +13,10 @@ export const Anchor = styled.a`
 export const CtCard = styled.div`
   display: flex;
   flex-direction: column;
-  filter: drop-shadow(2px 1px 6px #7a8188 );
   position: relative;
-  background-color: #859E4E;
+  background-color: #F7F5EB;
   margin-top: 20%;
   transition: 0.4s;
-  width: 100%;
-  height: 76%;
   
   &:hover {
     transform: scale(0.96, 0.96);
@@ -39,10 +36,9 @@ export const CtCard = styled.div`
 `;
 
 export const CtImage = styled.div`
-    border-top: 5px solid #072104;
     display: flex;
+    border-radius: 20px;
     justify-content: center;
-    width: 100%;
     height: 53%;
     border-radius: 2%;
     overflow: hidden;
@@ -51,6 +47,7 @@ export const CtImage = styled.div`
 
 export const Imatge = styled.img`
   object-fit: cover;
+  border-radius: 20px;
   object-position: center;
   width: 100%;
   height: 90%;
@@ -66,26 +63,28 @@ export const Imatge = styled.img`
 
 `;
 
-
-
 export const CtIcons = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
+
     padding-top: 5%;
     border-radius: 0px 0px 8px 8px;
 `;
 
 export const BtFav = styled.button`
-    font-size: 90%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: 50%;
-    height: 50%;
-    transition-duration: 0.4s;
-    cursor: pointer; 
+    position: absolute;
+    background-color: #93AA5F;
+    width: 2em;
+    height: 2em;
     border: none;
+    border-radius: 20%;
+    color: white;
+    top: 5%;
+    right: 5%;
+    font-size: 18px;
+    cursor: pointer; 
 
 
   @media screen and (max-width: 820px) {
@@ -104,7 +103,6 @@ export const BtFav = styled.button`
     color: #345226;
     padding-bottom: 2.2%;
     width: 50%;
-    height: 50%;
     transition-duration: 0.4s;
     border: none;
     cursor: pointer;
@@ -120,21 +118,24 @@ export const BtFav = styled.button`
 `;
 
 
-
 export const CtTxt = styled.div`
   background-color: inherit;
+  filter: drop-shadow(2px 1px 4px #7a8188 );
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+
   width: 100%;
+  border-radius: 0px 0px 25px 25px;
+
 `;
 
 export const TxtTitle = styled.h2`
   font-size: 1.5em;
   font-weight: bold;
   margin-left: 2%;
-  color: black;
+  color: #93AA5F;
 
   @media screen and (max-width: 820px) {
     font-size: 29px;
@@ -145,6 +146,24 @@ export const TxtTitle = styled.h2`
   }
 
 `;
+
+
+
+export const TxtPrice = styled.h2`
+  margin-top: 0;
+  color: #93AA5F;
+
+
+  @media screen and (max-width: 820px) {
+    font-size: 29px;
+  }
+
+  @media screen and (max-width: 390px) {
+    font-size: 23px;
+  }
+
+`;
+
 
 
 export const TxtDescription = styled.p`
@@ -170,10 +189,13 @@ export const CtUser = styled.div`
   color: #345226;
   align-items: center;
   justify-content: center;
+
 `;
 
 export const User = styled.div`
-width: 50%;
+width: 15%;
+margin-left: 2%;
+margin-right: 5%;
 
 @media screen and (max-width: 800px) {
     font-size: 25px;
@@ -183,16 +205,12 @@ width: 50%;
     width: 60%;
   }
 
-
 `;
 
 export const UserPhoto = styled.img`
   width: 100%;
+  border-radius: 80px;
   object-fit: cover;
-
-  
-
-
 
 `;
 
@@ -206,11 +224,9 @@ margin-right: 40%;
 
   @media screen and (max-width: 390px) {
     width: 20%;
-
   }
 
 `;
-
 
 
 export const UserName = styled.h5`
@@ -223,52 +239,31 @@ margin-left: 5%;
   }
 
   @media screen and (max-width: 390px) {
-
     
   }
 
 `;
 
-export const Num = styled.h2`
-/* color: #072104; */
-color: #D5E0DC;
-top:69%;
-left:26%;
-position: fixed;
-text-shadow: 1px 2px 4px #072104;
-/* text-shadow: 1px 2px 4px #D5E0DC; */
-
-@media screen and (max-width: 820px) {
-  top:68%;
-  left:28%;
-  position: fixed;
-}
-
-@media screen and (max-width: 390px) {
-  top:70%;
-  left:24%;
-  position: fixed;
-
-}
-
-`;
-
-export const CtPunts = styled.div`
-width: 30%;
-
-@media screen and (max-width: 800px) {
-    font-size: 25px;
-  }
-
-  @media screen and (max-width: 390px) {
-    margin-right: 5%;
-  }
-
-`;
-
-export const Punts = styled.p`
+export const CtButton  = styled.div`
 color: #345226;
 font-size: 25px;
 
 `;
+
+export const Button  = styled.button`
+  color: #E8E3CE;
+  background-color: #93AA5F;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+`;
+
 

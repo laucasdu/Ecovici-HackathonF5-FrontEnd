@@ -24,9 +24,8 @@ function Navbar() {
         <TxtLogo src={logo} alt='logo'></TxtLogo>
        </Link>
 
-    <CtInfo>
-
-          <BtBici>BICIS</BtBici>
+      <CtInfo>
+          <BtBici>SUBIR PRODUCTO</BtBici>
           <BtEquipamiento>EQUIPAMIENTO</BtEquipamiento>
           <BtEquipamiento>CONTACTO</BtEquipamiento>
 

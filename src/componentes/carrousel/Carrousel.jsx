@@ -12,7 +12,6 @@ function Carrousel() {
         center
         infinite
         showArrows
-        showIndicator
         slidesToShow={2}
     >
         <section>  

@@ -5,7 +5,8 @@ export const CtNavbar = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #072104;
+  background-color: #859E4E;
+
 
   @media screen and (max-width: 820px) {
   height: 250px;

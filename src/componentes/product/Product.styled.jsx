@@ -15,7 +15,7 @@ export const CtCard = styled.div`
   flex-direction: column;
   filter: drop-shadow(2px 1px 6px #7a8188 );
   position: relative;
-  background-color: white;
+  background-color: #859E4E;
   margin-top: 20%;
   transition: 0.4s;
   width: 100%;
@@ -44,6 +44,7 @@ export const CtImage = styled.div`
     justify-content: center;
     width: 100%;
     height: 53%;
+    border-radius: 2%;
     overflow: hidden;
 
 `;

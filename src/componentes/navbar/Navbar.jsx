@@ -16,7 +16,8 @@ function Navbar() {
   return (
 
     <>
-    <CtNavbar>
+
+    <CtNavbar> 
 
       <CtLogo>
         <TxtLogo>HOME</TxtLogo>
@@ -26,6 +27,8 @@ function Navbar() {
 
           <BtBici>BICIS</BtBici>
           <BtEquipamiento>EQUIPAMIENTO</BtEquipamiento>
+          <BtEquipamiento>CONTACTO</BtEquipamiento>
+
 
       </CtInfo>
       </CtNavbar>

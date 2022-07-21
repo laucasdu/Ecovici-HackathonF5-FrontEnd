@@ -41,8 +41,7 @@ function Product({product}) {
       </CtImage>
 
         <CtIcons>
-          <BtFav><i className="fa-regular fa-thumbs-up fa-2x fa-lg"></i></BtFav>
-          <BtEdit><i className="fa-solid fa-pen-to-square"></i></BtEdit>
+          {/* <BtFav><i className="fa-regular fa-thumbs-up fa-2x fa-lg"></i></BtFav> */}
         </CtIcons>
 
         <CtTxt>

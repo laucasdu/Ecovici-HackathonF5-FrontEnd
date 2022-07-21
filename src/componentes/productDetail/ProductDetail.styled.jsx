@@ -19,7 +19,7 @@ export const Container = styled.div`
   }
 `;
 
-export const CtMoment = styled.div`
+export const CtProduct = styled.div`
   align-items: center;
   display: flex;
   border-radius: 0.2vw;

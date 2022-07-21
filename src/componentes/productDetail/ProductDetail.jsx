@@ -1,20 +1,25 @@
 import { toHaveFormValues } from '@testing-library/jest-dom/dist/matchers';
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { productServices } from '../../services/productoServices';
 import { Container, CtImage, CtProduct, ImageUrl } from './ProductDetail.styled';
 
 function ProductDetail() {
   
   const [product, setProduct] = useState([]);
+  const {id} = useParams();
+
   
-  useEffect(() => {
-    getProductById ();
-}, []);
+  useEffect(
+    () => {
+      getProductById(id);
+    },
+    [id]
+  );
 
 
   // Funció que agafa un moment segons el seu id 
-  const getProductById = () => {
+  const getProductById = (id) => {
     productServices.getProductById(id).then((res) => {
       if(res){
         setProduct(res);
@@ -24,16 +29,12 @@ function ProductDetail() {
       
   }
 
-
-  const condicion = true;
   return (
 
     <Container>
       <CtProduct>
         <CtImage>
-        <Link to = {`/products/${product.id}`}>
           <ImageUrl src={product.img} alt="momentfoto" />
-          </Link>
         </CtImage>
        </CtProduct>      
     </Container> 

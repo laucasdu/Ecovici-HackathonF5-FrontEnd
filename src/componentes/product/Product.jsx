@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { 
-    Anchor, 
-    BtEdit, 
-    BtFav, 
     CtCard, 
     CtIcons, 
     CtImage, 
@@ -35,9 +32,9 @@ function Product({product}) {
       </CtPunts>
       </CtUser>
       <CtImage>
-      {/* <Link to = {`/products/${product.id}`}> */}
+      <Link to = {`/products/${product.id}`}>
           <Imatge src={product.img}></Imatge>
-          {/* </Link> */}
+          </Link>
       </CtImage>
 
         <CtIcons>

@@ -2,7 +2,7 @@ import Carousel from 'styled-components-carousel';
 import foto1 from '../../assets/img/bici1.jpg'
 import foto2 from '../../assets/img/bici2.jpg';
 import foto3 from '../../assets/img/bici4.jpg';
-import { Carusel } from './carusel.style';
+import { Carusel } from './Carrousel.style';
 
  
 function Carrousel() {

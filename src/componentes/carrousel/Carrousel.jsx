@@ -1,22 +1,22 @@
 import Carousel from 'styled-components-carousel';
-import foto1 from '../../assets/img/bici1.jpg'
-import foto2 from '../../assets/img/bici2.jpg';
-import foto3 from '../../assets/img/bici4.jpg';
+import foto1 from '../../assets/img/01texto.png'
+import foto2 from '../../assets/img/banner_02.png';
+import foto3 from '../../assets/img/amarilla.jpg';
 import { Carusel } from './Carrousel.style';
 
  
 function Carrousel() {
     return (
 
-    <Carousel
+        <Carousel
         center
         infinite
         showArrows
         showIndicator
-        slidesToShow={3}
+        slidesToShow={2}
     >
-         <section>  
-                     <Carusel src= {foto1} ></Carusel>
+        <section>  
+        <Carusel src= {foto1} ></Carusel>
         </section>
         <section>
         <Carusel src= {foto2} ></Carusel>

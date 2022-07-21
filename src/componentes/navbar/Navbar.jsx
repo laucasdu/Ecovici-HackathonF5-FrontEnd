@@ -1,14 +1,14 @@
 import React from 'react'
+import logo from '../../assets/img/logo.png'
+
+import { Link } from 'react-router-dom'
 import { 
-  BtBici,
+    CtContainer,
+    BtBici,
     BtEquipamiento,
     CtInfo, 
-    CtLogo, 
-    CtLogoCentral, 
     CtNavbar, 
-    TxtLogo, 
-    TxtNew, 
-    TxtRegistrate } from './Navbar.styled'
+    TxtLogo,  } from './Navbar.styled'
 
 
 function Navbar() {
@@ -17,11 +17,12 @@ function Navbar() {
 
     <>
 
+    <CtContainer>
     <CtNavbar> 
 
-      <CtLogo>
-        <TxtLogo>HOME</TxtLogo>
-      </CtLogo>
+      <Link to="/">
+        <TxtLogo src={logo} alt='logo'></TxtLogo>
+       </Link>
 
     <CtInfo>
 
@@ -29,9 +30,9 @@ function Navbar() {
           <BtEquipamiento>EQUIPAMIENTO</BtEquipamiento>
           <BtEquipamiento>CONTACTO</BtEquipamiento>
 
-
       </CtInfo>
       </CtNavbar>
+      </CtContainer>
 </>
   )
 }

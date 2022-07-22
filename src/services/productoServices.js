@@ -16,12 +16,12 @@ export const productServices = {
     return product;
   },
 
-  getSearchProduct(search) {
-    const products = axios
-      .get(`${baseURL}/products?search=${search}`)
-      .then((res) => {
-        return res.data;
-      });
-    return products;
-  },
+//   getSearchProduct(search) {
+//     const products = axios
+//       .get(`${baseURL}/products?search=${search}`)
+//       .then((res) => {
+//         return res.data;
+//       });
+//     return products;
+//   },
 };

@@ -44,9 +44,6 @@ function Product({product}) {
         <CtTxt>
           <TxtTitle>{product.name}</TxtTitle>
           <TxtPrice>Precio: {product.price}€</TxtPrice>
-          <CtButton>
-          <Button>COMPRAR</Button>
-          </CtButton>
         </CtTxt>
 
     </CtCard>

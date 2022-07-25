@@ -1,7 +1,6 @@
 import React from 'react'
-import Carrousel from '../componentes/carrousel/Carrousel'
 import Navbar from '../componentes/navbar/Navbar'
-import NavbarMobil from '../componentes/navbarmobil/NavbarMovbil'
+import NavbarMobil from '../componentes/navbarmobil/NavbarMobil'
 import ProductList from '../componentes/productList/ProductList'
 
 function Home() {
@@ -10,7 +9,6 @@ function Home() {
     <>
 
     <Navbar/>
-    <Carrousel/> 
     <ProductList/>
     <NavbarMobil/>
 

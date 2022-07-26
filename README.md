@@ -1,71 +1,59 @@
-# Getting Started with Create React App
+MARKETPLACE ECOVICI 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+============
 
-## Available Scripts
+## Table of Contents
+1. [BRIEFING](#BRIEFING)
+2. [TECHNOLOGIES](#TECHNOLOGIES)
+3. [INSTALLATION](#INSTALLATION_)
 
-In the project directory, you can run:
+***
 
-### `npm start`
+## Link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ https://laucasdu.github.io/HackathonF5-ECOVICI/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## BRIEFING
 
-### `npm test`
+ECOVICI trata sobre una página web donde queremos dar una segunda oportunidad a todas aquellas bicis que se encuentran en un estado no muy optimo, es decir, queremos potenciar que la gente pueda obtener a un buen precio una bicicleta urbana para intentar reducir al máximo el uso de los vehiculos. Y así de está manera contribuir a mejorar el medioambiente.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### TECNOLOGÍAS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- HTML 5
+- CSS 3
+- NODE.JS
+- REACT
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## IU DESIGN
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Home](/src/img/Home.png)
 
-### `npm run eject`
+<!-- ![DetalleProducto](/src/img/versionmovil1.png) -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- ![Compra](/src/img/versionmovil1.png) -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## TECHNOLOGIES
+- HTML 5
+- CSS 3
+- JS ES6 VANILLA
+- REACT
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## AUTORES
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* **Billal Bawar**
+* **Cesáreo Martinez**
+* **Chantell Gebauer** 
+* **Laura Castillo**
+* **Oliris Fernández** 
+* **Maria Carranza** 
+* **Rosi Blanco**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## INSTALLATION
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# HackathonF5-ECOVICI
+- Required React v.17.0.2
+- Required node.js
+- git clone <repository>
+- npm start

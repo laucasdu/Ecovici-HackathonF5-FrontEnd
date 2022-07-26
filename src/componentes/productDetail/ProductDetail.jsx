@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { productServices } from '../../services/productoServices';
 import { CtTxt, TxtDescription, TxtTitle } from '../product/Product.styled';
-import { Button, Container, CtButton, CtDescription, CtImage, CtProduct, ImageUrl } from './ProductDetail.styled';
+import { Button, Container, CtButton, CtDescription, CtImage, CtInfo, CtProduct, ImageUrl, TxtPrice, TxtTitleDetail } from './ProductDetail.styled';
 
 function ProductDetail() {
   
@@ -39,15 +39,19 @@ function ProductDetail() {
         </CtImage>
        
         <CtTxt>
-          <TxtTitle>{product.name}</TxtTitle>
-          <TxtDescription>Precio:{product.price}€</TxtDescription>
+          <CtInfo>
+          <TxtTitleDetail>{product.name}</TxtTitleDetail>
           <CtDescription>
           <TxtDescription>Bicicleta urbana de 6 velocidades 
-            fabricada por Capri Bikes. 
-            Esta bici es ideal para el uso e 
-            ciudad y misxto. Rueda de 26 pulgadas.</TxtDescription>
-          <Button>COMPRAR</Button>
-          </CtDescription>
+            fabricada por Capri Bikes. Esta bici es ideal para el uso e 
+            ciudad y mixto. Está equipada con un cambio interno y silencioso de 7 velocidades, 
+            una tija con suspensión y horquilla de suspensión Forklight 3.0, y un buje Nexus Dynamo que alimenta la luz delantera incluida.Rueda de 26 pulgadas.</TxtDescription>
+            </CtDescription>
+          <TxtPrice>Precio:{product.price}€</TxtPrice>
+          
+
+          <Button><i className="fa-solid fa-cart-shopping fa-xl"></i> COMPRAR</Button>
+          </CtInfo>
 
         </CtTxt>
         

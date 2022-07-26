@@ -23,7 +23,7 @@ function FormCompra() {
               <CtTitlePrincipal> 
             <TxtPrincipal>CONTACTO</TxtPrincipal>
             </CtTitlePrincipal>
-              <CtTxt>Title</CtTxt>
+              <CtTxt>Nombre y Apellidos</CtTxt>
                   <Input
                    className="nombre"
                    type="text"
@@ -35,13 +35,13 @@ function FormCompra() {
                     type="text"
                     placeholder="Escriba su direccion"
                   ></Input>
-                <CtTxt>Dirección de facturación</CtTxt>
+                {/* <CtTxt>Dirección de facturación</CtTxt>
                   <InputDescription
                    className="dirección"
                    type="text"
                    placeholder="Escriba su direccion de facturación"
-                  ></InputDescription>
-                  <CtTxt>Correo</CtTxt>
+                  ></InputDescription> */}
+                  <CtTxt>Email de contacto</CtTxt>
                   <InputDescription
                    className="Correo"
                    type="text"
@@ -59,16 +59,18 @@ function FormCompra() {
                    type="text"
                    placeholder="Escriba su teléfono"
                   ></InputDescription>
+                
+                <CtTxt>Formas de pago</CtTxt>
 
-                {/* <Select placeholder="Formas de Pago">
-                    <option src= "https://www.paypal.com/us/signin"></option>
-                    {/* <option value="tarjeta">Tarjeta de débito o crédito</option> */}
-                    {/* <option value="transferencia">Transferencia</option> */}
-                {/* </Select>  */}
+                <Select placeholder="Formas de Pago">
+                    <option value="tarjeta">Tarjeta de débito o crédito</option> 
+                    <option value="tarjeta">Paypal</option>
+                    <option value="transferencia">Transferencia</option> 
+                </Select>  
                 {/* <TxtArea placeholder="Comentarios"></TxtArea> */}
 
                   <CtButton>
-                    <BtEdit src= "https://www.paypal.com/us/signin">ENVIAR</BtEdit>
+                    <BtEdit>ENVIAR</BtEdit>
                     </CtButton>
                 </Form>
                 </CtForm>

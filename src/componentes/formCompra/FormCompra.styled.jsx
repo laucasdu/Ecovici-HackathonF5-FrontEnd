@@ -22,7 +22,7 @@ export const Form = styled.form`
   flex-direction: column;
   /* filter: drop-shadow(2px 1px 6px #7a8188 ); */
   padding: 2%;
-  border-radius: 0.2vw;
+  border-radius: 10px;
   position: fixed;
   top: 14%;
   /* background-color: white; */
@@ -44,6 +44,7 @@ export const Form = styled.form`
 
 export const Input = styled.input`
   width: 100%;
+  border-radius: 10px;
   background-color: #E8E3CE;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -60,7 +61,7 @@ export const Input = styled.input`
 export const InputDescription = styled.textarea`
   resize: none;
   background-color: #E8E3CE;
-  border-radius: 0.2vw;
+  border-radius: 10px;
   width: 100%;
   padding: 12px 20px;
   font-weight: 500;
@@ -86,7 +87,7 @@ export const BtEdit = styled.button`
   font-weight: 800;
   color:#E8E3CE;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 0.2vw;
+  border-radius: 10px;
   &:hover {
     color: #E8E3CE;
   }
@@ -110,45 +111,14 @@ export const BtEdit = styled.button`
 
 `;
 
-export const BtCancel = styled.button`
-  color:black;
-  width: 50%;
-  height: 40px;
-  font-size: small;
-  background-color: none;
-  align-items: center;
-  margin-top: 20px;
-  background-color: #93AA5F;
-  border: none;
-  font-weight: 800;
-  color:#072104;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 0.2vw;
-
-  &:hover {
-    color: #1D0B29;
-  }
-
-
-  @media only screen and (max-width:820px) {
-    font-size: 20px;
-  width: 50%;
-  font-size: 19px;
-}
-
-  @media (max-width: 420px) {
-    font-size: 20px;
-    width: 45%;
-  font-size: 19px;
-
-  }
-`;
 
 
 export const CtButton = styled.div`
  display: flex;
  flex-direction: row;
  width: 100%;
+ border-radius: 10px;
+
 
  color:#072104;
 
@@ -186,7 +156,7 @@ export const CtTxt = styled.h1`
 export const CtTitlePrincipal = styled.div`
   display: flex;
   background-color: #93AA5F;
-  border-radius: 0.2vw;
+  border-radius: 10px;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -223,15 +193,15 @@ export const TxtPrincipal = styled.h1`
 `;
 
 export const Select = styled.select`
-  width: 60%;
-  padding: 12px 20px;
-  margin-top: 10px;
-  margin-left: 1%;
+  width: 100%;
+  padding: 15px 20px;
   border: 2px solid grey;
   box-sizing: border-box;
   display: flex;
-  border-radius: 2vw;
+  background-color: #93AA5F;
+  border-radius: 10px;
   font-size: 1em;
+
   @media (max-width: 450px) {
     padding: 18px 30px;
     font-size: 1.5em;
@@ -243,6 +213,7 @@ export const DivSelects = styled.div`
 
 export const TxtArea = styled.textarea`
   padding: 4%;
+  width: 100%;
   margin-top: 2%;
   border-radius: 2vw;
   max-width: 350px;

@@ -27,11 +27,11 @@ ECOVICI trata sobre una página web donde queremos dar una segunda oportunidad a
 
 ## IU DESIGN
 
-![Home](/src/img/Home.png)
+![Home](/src/img/home.png)
 
-<!-- ![DetalleProducto](/src/img/versionmovil1.png) -->
+<!-- ![DetalleProducto](/src/img/home.png) -->
 
-<!-- ![Compra](/src/img/versionmovil1.png) -->
+<!-- ![Compra](/src/img/home.png) -->
 
 
 ## TECHNOLOGIES

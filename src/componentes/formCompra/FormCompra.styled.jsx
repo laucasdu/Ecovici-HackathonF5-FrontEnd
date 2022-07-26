@@ -44,6 +44,7 @@ export const Form = styled.form`
 
 export const Input = styled.input`
   width: 100%;
+  border: 2px solid #93AA5F;
   border-radius: 10px;
   background-color: #E8E3CE;
   padding: 12px 20px;
@@ -60,8 +61,9 @@ export const Input = styled.input`
 
 export const InputDescription = styled.textarea`
   resize: none;
-  background-color: #E8E3CE;
+  border: 2px solid #93AA5F;
   border-radius: 10px;
+  background-color: #E8E3CE;
   width: 100%;
   padding: 12px 20px;
   font-weight: 500;
@@ -79,7 +81,7 @@ export const BtEdit = styled.button`
   color:black;
   width: 100%;
   height: 40px;
-  font-size: small;
+  font-size: 16px;
   align-items: center;
   margin-top: 20px;
   background-color: #93AA5F;
@@ -192,7 +194,7 @@ export const TxtPrincipal = styled.h1`
 
 `;
 
-export const Select = styled.select`
+export const CtPago = styled.select`
   width: 100%;
   padding: 15px 20px;
   border: 2px solid grey;

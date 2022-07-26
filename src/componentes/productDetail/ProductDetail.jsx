@@ -49,9 +49,11 @@ function ProductDetail() {
             </CtDescription>
           <TxtPrice>Precio:{product.price}€</TxtPrice>
           
-
-          <Button><i className="fa-solid fa-cart-shopping fa-xl"></i> COMPRAR</Button>
+          <Link to="/form">
+          <Button><i className="fa-solid fa-cart-shopping fa-xl"></i> COMPRAR</Button></Link>
           </CtInfo>
+          
+
 
         </CtTxt>
         

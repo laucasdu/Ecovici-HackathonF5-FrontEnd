@@ -15,7 +15,7 @@ MARKETPLACE ECOVICI
 
 ## BRIEFING
 
-ECOVICI trata sobre una página web donde queremos dar una segunda oportunidad a todas aquellas bicis que se encuentran en un estado no muy optimo, es decir, queremos potenciar que la gente pueda obtener a un buen precio una bicicleta urbana para intentar reducir al máximo el uso de los vehiculos. Y así de está manera contribuir a mejorar el medioambiente.
+ECOVICI trata sobre una página web donde queremos dar una segunda oportunidad a todas aquellas bicicletas urbanas que se encuentran en un mal estado, es decir, queremos potenciar que la gente pueda obtener a un buen precio una bicicleta para intentar reducir al máximo el uso de los vehiculos. Y así de está manera contribuir a mejorar el medioambiente.
 
 
 ### TECNOLOGÍAS

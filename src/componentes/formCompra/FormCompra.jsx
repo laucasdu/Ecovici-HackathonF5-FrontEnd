@@ -4,6 +4,7 @@ import {
     BtEdit, 
     CtButton, 
     CtForm, 
+    CtPago, 
     CtTitlePrincipal, 
     CtTxt, 
     Form, 
@@ -21,7 +22,7 @@ function FormCompra() {
             <CtForm>
             <Form>
               <CtTitlePrincipal> 
-            <TxtPrincipal>CONTACTO</TxtPrincipal>
+            <TxtPrincipal>FORMULARIO DE COMPRA</TxtPrincipal>
             </CtTitlePrincipal>
               <CtTxt>Nombre y Apellidos</CtTxt>
                   <Input
@@ -62,15 +63,15 @@ function FormCompra() {
                 
                 <CtTxt>Formas de pago</CtTxt>
 
-                <Select placeholder="Formas de Pago">
+                <CtPago placeholder="Formas de Pago">
                     <option value="tarjeta">Tarjeta de débito o crédito</option> 
                     <option value="tarjeta">Paypal</option>
                     <option value="transferencia">Transferencia</option> 
-                </Select>  
+                </CtPago>  
                 {/* <TxtArea placeholder="Comentarios"></TxtArea> */}
 
                   <CtButton>
-                    <BtEdit>ENVIAR</BtEdit>
+                    <BtEdit>PAGAR</BtEdit>
                     </CtButton>
                 </Form>
                 </CtForm>

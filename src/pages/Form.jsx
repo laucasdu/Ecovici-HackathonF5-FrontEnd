@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../componentes/navbar/Navbar'
 import FormCompra from '../componentes/formCompra/FormCompra'
 
 function Form() {
@@ -6,7 +7,7 @@ function Form() {
   return (
 
     <>
-
+    <Navbar/>
     <FormCompra/>
 
     </>

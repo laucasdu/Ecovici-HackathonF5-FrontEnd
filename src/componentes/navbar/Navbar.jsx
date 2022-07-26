@@ -27,7 +27,9 @@ function Navbar() {
       <CtInfo>
           <BtBici>SUBIR PRODUCTO</BtBici>
           <BtEquipamiento>EQUIPAMIENTO</BtEquipamiento>
-          <BtEquipamiento>CONTACTO</BtEquipamiento>
+      <Link to="/form">
+      <BtEquipamiento>CONTACTO</BtEquipamiento>
+       </Link>
 
       </CtInfo>
       </CtNavbar>

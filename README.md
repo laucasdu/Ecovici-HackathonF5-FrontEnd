@@ -15,23 +15,17 @@ MARKETPLACE ECOVICI
 
 ## BRIEFING
 
-ECOVICI trata sobre una página web donde queremos dar una segunda oportunidad a todas aquellas bicicletas urbanas que se encuentran en un mal estado, es decir, queremos potenciar que la gente pueda obtener a un buen precio una bicicleta para intentar reducir al máximo el uso de los vehiculos. Y así de está manera contribuir a mejorar el medioambiente.
+This application is about a platform for buying and selling second-hand bicycles. Restored, and at a good price.
+With this application is intended to help the environment trying to offer a product to promote the consumption of bicycles in towns or cities. And in this way, reduce to the maximum the use of vehicles.
 
-
-### TECNOLOGÍAS
-
-- HTML 5
-- CSS 3
-- NODE.JS
-- REACT
 
 ## IU DESIGN
 
-<!-- ![Home](/src/assets/img/home.png) -->
+![ECOVICI_MACKBOOK_HOME](https://user-images.githubusercontent.com/102957525/182260633-7f7da724-8661-4002-93eb-9f146010f033.jpg)
 
-<!-- ![DetalleProducto](/src/img/home.png) -->
+![ECOVICI_MACKBOOK_DETAIL](https://user-images.githubusercontent.com/102957525/182260629-620d3ea6-e247-4019-bd09-019cba8a936c.jpg)
 
-<!-- ![Compra](/src/img/home.png) -->
+![ECOVICI_MACKBOOK_COMPRA](https://user-images.githubusercontent.com/102957525/182260621-3f8097ca-d659-45e1-a502-2af989049ec6.jpg)
 
 
 ## TECHNOLOGIES
@@ -41,19 +35,24 @@ ECOVICI trata sobre una página web donde queremos dar una segunda oportunidad a
 - REACT
 
 
-## AUTORES
+## HACKATHON TEAM 
 
+* **Laura Castillo**
 * **Billal Bawar**
 * **Cesáreo Martinez**
 * **Chantell Gebauer** 
-* **Laura Castillo**
 * **Oliris Fernández** 
 * **Maria Carranza** 
 * **Rosi Blanco**
 
 ## INSTALLATION
 
-- Required React v.17.0.2
+- Required React v.18.2.0
 - Required node.js
 - git clone <repository>
 - npm start
+
+## PROJECT LINKS
+
+[FrontEnd](https://github.com/laucasdu/HackathonF5-ECOVICI)</br>
+[BackEnd](https://github.com/laucasdu/HackathonF5-ECOVICI-BACK)

@@ -11,13 +11,16 @@ MARKETPLACE ECOVICI
 
 ## Link
 
- https://laucasdu.github.io/HackathonF5-ECOVICI/
 
 ## BRIEFING
 
 This application is about a platform for buying and selling second-hand bicycles. Restored, and at a good price.
 With this application is intended to help the environment trying to offer a product to promote the consumption of bicycles in towns or cities. And in this way, reduce to the maximum the use of vehicles.
 
+## PROJECT LINKS
+
+[FrontEnd](https://github.com/laucasdu/HackathonF5-ECOVICI)</br>
+[BackEnd](https://github.com/laucasdu/HackathonF5-ECOVICI-BACK)
 
 ## IU DESIGN
 
@@ -52,7 +55,4 @@ With this application is intended to help the environment trying to offer a prod
 - git clone <repository>
 - npm start
 
-## PROJECT LINKS
 
-[FrontEnd](https://github.com/laucasdu/HackathonF5-ECOVICI)</br>
-[BackEnd](https://github.com/laucasdu/HackathonF5-ECOVICI-BACK)

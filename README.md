@@ -3,7 +3,7 @@ MARKETPLACE ECOVICI
 ============
 
 ## Table of Contents
-1. [GENERAL INFO](#GENERAL INFO)
+1. [GENERALINFO](#GENERALINFO)
 2. [TECHNOLOGIES](#TECHNOLOGIES)
 3. [INSTALLATION](#INSTALLATION_)
 
@@ -12,8 +12,8 @@ MARKETPLACE ECOVICI
 
 ## PROJECT LINKS
 
-[FrontEnd](https://github.com/laucasdu/HackathonF5-ECOVICI)</br>
-[BackEnd](https://github.com/laucasdu/HackathonF5-ECOVICI-BACK)
+[Front-End](https://github.com/laucasdu/HackathonF5-ECOVICI)</br>
+[Back-End](https://github.com/laucasdu/HackathonF5-ECOVICI-BACK)
 
 
 ## GENERAL INFO
@@ -37,6 +37,7 @@ With this application is intended to help the environment trying to offer a prod
 - JAVASCRIPT ES6 VANILLA
 - REACT
 - AXIOS
+- STYLES COMPONENTS
 
 
 ## HACKATHON TEAM 

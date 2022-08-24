@@ -3,7 +3,7 @@ MARKETPLACE ECOVICI
 ============
 
 ## Table of Contents
-1. [BRIEFING](#BRIEFING)
+1. [GENERAL INFO](#GENERAL INFO)
 2. [TECHNOLOGIES](#TECHNOLOGIES)
 3. [INSTALLATION](#INSTALLATION_)
 
@@ -16,7 +16,7 @@ MARKETPLACE ECOVICI
 [BackEnd](https://github.com/laucasdu/HackathonF5-ECOVICI-BACK)
 
 
-## BRIEFING
+## GENERAL INFO
 
 This application is about a platform for buying and selling second-hand bicycles. Restored, and at a good price.
 With this application is intended to help the environment trying to offer a product to promote the consumption of bicycles in towns or cities. And in this way, reduce to the maximum the use of vehicles.
@@ -34,20 +34,21 @@ With this application is intended to help the environment trying to offer a prod
 ## TECHNOLOGIES
 - HTML 5
 - CSS 3
-- JS ES6 VANILLA
+- JAVASCRIPT ES6 VANILLA
 - REACT
 - AXIOS
 
 
 ## HACKATHON TEAM 
 
-* **Laura Castillo**
 * **Billal Bawar**
 * **Cesáreo Martinez**
 * **Chantell Gebauer** 
 * **Oliris Fernández** 
 * **Maria Carranza** 
 * **Rosi Blanco**
+* **Laura Castillo**
+
 
 ## INSTALLATION
 

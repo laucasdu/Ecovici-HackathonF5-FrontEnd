@@ -31,13 +31,13 @@ With this application is intended to help the environment trying to offer a prod
 ![ECOVICI_MACKBOOK_COMPRA](https://user-images.githubusercontent.com/102957525/182260621-3f8097ca-d659-45e1-a502-2af989049ec6.jpg)
 
 
-## TECHNOLOGIES
+## TECHNOLOGIES & TOOLS
 - HTML 5
 - CSS 3
-- JAVASCRIPT ES6 VANILLA
-- REACT
-- AXIOS
-- STYLES COMPONENTS
+- JavaScript ES6 Vanilla
+- React
+- Axios
+- Styles Components 
 
 
 ## HACKATHON TEAM 
@@ -53,6 +53,8 @@ With this application is intended to help the environment trying to offer a prod
 
 ## INSTALLATION
 
+This project was bootstrapped with Create React App therefore requires node.js and npm. Once you've verified node is installed in your directory take the following steps:
+
 1. Clone the repository with the following command:  
 ```
 git clone https://github.com/laucasdu/HackathonF5-ECOVICI.git
@@ -64,18 +66,11 @@ git clone https://github.com/laucasdu/HackathonF5-ECOVICI.git
 npm install
 ```
 
-3. Then, start the front-end with `npm start`, this command will start the front-end in http://localhost:3000.
-
-4. For the correct functioning of the front-end, you must also clone the back-end repository:
+3. For the correct functioning of the front-end, you must also clone the back-end repository:
 ```
 git clone https://github.com/laucasdu/HackathonF5-ECOVICI-BACK.git
 ```
 
-5. Once cloned, run the following command again, but this time in the back repository.
-
-```
-npm install
-```
 
 
 
